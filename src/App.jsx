@@ -4,14 +4,16 @@ import FetchData from '../useEffect/FetchData'
 import Counter from '../useEffect/Counter'
 import ChangeBg from '../useLayOutEffect/ChangeBg'
 import IndGov from '../PropsDrillDown/IndGov'
+import Reducer from '../useReducer/Reducer'
 
 const App = () => {
   return (
     <div>
-       <Counter/> 
+       {/* <Counter/> 
       <FetchData/>
       <ChangeBg/>
-      <IndGov />
+      <IndGov /> */}
+      <Reducer />
       </div>
     
   )
