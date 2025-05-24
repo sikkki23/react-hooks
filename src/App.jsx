@@ -5,6 +5,7 @@ import Counter from '../useEffect/Counter'
 import ChangeBg from '../useLayOutEffect/ChangeBg'
 import IndGov from '../PropsDrillDown/IndGov'
 import Reducer from '../useReducer/Reducer'
+import Cart from '../useMemo/Cart'
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
       <FetchData/>
       <ChangeBg/>
       <IndGov /> */}
-      <Reducer />
+      {/* <Reducer /> */}
+      <Cart/>
       </div>
     
   )
