@@ -6,6 +6,7 @@ import ChangeBg from '../useLayOutEffect/ChangeBg'
 import IndGov from '../PropsDrillDown/IndGov'
 import Reducer from '../useReducer/Reducer'
 import Cart from '../useMemo/Cart'
+import UseCallback from '../useCallback/usecallback'
 
 const App = () => {
   return (
@@ -15,7 +16,8 @@ const App = () => {
       <ChangeBg/>
       <IndGov /> */}
       {/* <Reducer /> */}
-      <Cart/>
+      {/* <Cart/> */}
+     <UseCallback />
       </div>
     
   )
