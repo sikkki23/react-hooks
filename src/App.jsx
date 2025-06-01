@@ -7,7 +7,8 @@ import IndGov from '../PropsDrillDown/IndGov'
 import Reducer from '../useReducer/Reducer'
 import Cart from '../useMemo/Cart'
 import UseCallback from '../useCallback/usecallback'
-import Index from '../useTransition/Index'
+// import Index from '../useTransition/Index'
+import Index from '../useRef/Index'
 
 const App = () => {
   return (
@@ -31,7 +32,10 @@ const App = () => {
       {/* <UseCallback /> */}
 
       {/* useTransition hook */}     
-     <Index />
+      {/* <Index /> */}
+     
+      {/* useRef hook */}
+      <Index />
       </div>
     
   )
