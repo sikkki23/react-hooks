@@ -7,17 +7,31 @@ import IndGov from '../PropsDrillDown/IndGov'
 import Reducer from '../useReducer/Reducer'
 import Cart from '../useMemo/Cart'
 import UseCallback from '../useCallback/usecallback'
+import Index from '../useTransition/Index'
 
 const App = () => {
   return (
     <div>
-       {/* <Counter/> 
-      <FetchData/>
-      <ChangeBg/>
-      <IndGov /> */}
+       {/* <Counter/>  */}
+      {/* <FetchData/> */}
+
+      {/* useLayOutEffect hook */ }
+      {/* <ChangeBg/>  */}
+
+      {/* props DrillDown and use Conret hook */}
+      {/* <IndGov />  */}
+
+      {/* useReducer hook */}
       {/* <Reducer /> */}
+        
+      {/* useMemo hook */}
       {/* <Cart/> */}
-     <UseCallback />
+
+      {/* useCallback hook */}
+      {/* <UseCallback /> */}
+
+      {/* useTransition hook */}     
+     <Index />
       </div>
     
   )
