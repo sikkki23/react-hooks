@@ -8,7 +8,8 @@ import Reducer from '../useReducer/Reducer'
 import Cart from '../useMemo/Cart'
 import UseCallback from '../useCallback/usecallback'
 // import Index from '../useTransition/Index'
-import Index from '../useRef/Index'
+//import Index from '../useRef/Index'
+import Index from '../useId/Index'
 
 const App = () => {
   return (
@@ -35,6 +36,9 @@ const App = () => {
       {/* <Index /> */}
      
       {/* useRef hook */}
+      {/* <Index /> */}
+
+      {/* useId hook */}
       <Index />
       </div>
     
