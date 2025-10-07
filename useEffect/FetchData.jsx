@@ -10,7 +10,6 @@ const FetchData = () => {
     };
       fetchApi();
     }, []);
-
     
   return (
     <div>FetchData</div>
