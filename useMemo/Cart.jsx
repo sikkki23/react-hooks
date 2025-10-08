@@ -9,7 +9,6 @@ const Cart = () => {
     ]);
 
     const [discount,setDiscount] =useState(0);
-
     
     const totalPrice = useMemo(() => {
         console.log('Calulating total Price...');
